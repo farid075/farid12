@@ -1,16 +1,33 @@
-.reng{
-    text-align: center;
-    font-size: medium;
-    font-weight: bold;
+div{
+    display: inline-block;
+    font-size: 40px;
+}
+#parent{
+    background-color: aqua;
+    width: 1000px;
+    height: 2000px;
 
 }
-.reng{
-    color: red;
-    text-transform: capitalize;
+#child2{
+   position:fixed;
+   z-index: 1;
 }
-.ds{
-    color: blue;
+.child{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    
 }
-.ds{
-    color:rgb(14, 126, 10);
+#child3{
+    position: relative;
+    top: 30px;
+    left: 30px;
+
 }
+#child1{
+    
+    margin-bottom: 20px;
+
+}  I
+
+    
